@@ -1,0 +1,74 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f9f4; /* สีพื้นหลังเขียวนุ่มนวล */
+  color: #2e4d2c; /* สีข้อความเขียวเข้ม */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #81c784; /* สีเขียวอ่อนสำหรับหัวข้อ */
+  color: #ffffff; /* สีข้อความขาว */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, h3 {
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 1rem; /* ขยายขนาดตัวอักษรเล็กน้อย */
+}
+
+main {
+  padding: 20px;
+}
+
+.song {
+  margin: 20px 0;
+  border: 2px solid #81c784; /* สีเขียวอ่อน */
+  border-radius: 10px;
+  background: #ffffff; /* สีพื้นหลังขาว */
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.song:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.song h2 {
+  font-size: 1.5rem;
+  color: #2e7d32; /* สีเขียวเข้ม */
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #558b2f; /* สีเขียวเข้ม */
+  color: white;
+  position: relative;
+}
+
+footer p {
+  margin: 0;
+}
+
+.warning {
+  background-color: #fef3c7; /* สีเหลืองนุ่ม */
+  color: #8c6d1f; /* สีข้อความเหลืองเข้ม */
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #fce8a3; /* สีขอบเหลือง */
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5; /* ระยะห่างระหว่างบรรทัด */
+}
